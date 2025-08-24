@@ -16,15 +16,15 @@
 </head>
 
 <body>
-    <div class="caixa-principal">
+    <div class="caixa-principal" id="home">
         <!--AREA DE NAVEGACAO-->
         <nav> 
             <h2 class="portfolio">Portfo<span>lio</span></h2>
             <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Projetos</li>
-                <li>Fale comigo</li>
+                <li><a class="link-nav" href="#home">Home</a></li>
+                <li><a class="link-nav" href="#sobre">Sobre</a></li>
+                <li><a class="link-nav" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-nav" href="#falecomigo">Fale comigo</a></li>
             </ul>
         </nav>
         
@@ -38,11 +38,11 @@
         <div>
             <h2>Sobre mim</h2>
             <p>blablabla</p>
-            <button>Entre em contado</button>
+            <button><a href="mailto:anapauladsp.1026@hotmail.com" target="_blank">Entre em contado</a></button>
         </div>
     </section>
 
-    <div class="projetos">
+    <div class="projetos" id="projetos-id">
         <h2>Principais Projetos</h2>
 
         <div class="card-projetos">
@@ -50,24 +50,39 @@
             <div class="card">
                 <h5>Projeto 1</h5>
                 <p>blablabla</p>
-                <a>Ver Projeto</a>
+                <a href="https://github.com/aluapp-ana" target="_blank">Ver Projeto</a>
             </div>
 
             <div class="card">
                 <h5>Projeto 2</h5>
                 <p>blablabla</p>
-                <a>Ver Projeto</a>
+                <a href="https://github.com/aluapp-ana" target="_blank">Ver Projeto</a>
             </div>
 
             <div class="card">
                 <h5>Projeto 3</h5>
                 <p>blablabla</p>
-                <a>Ver Projeto</a>
+                <a href="https://github.com/aluapp-ana" target="_blank">Ver Projeto</a>
             </div>
 
         </div>
         
     </div>
+
+    <footer>
+        <h5>Ana Paula Pereira</h5>
+        <p>Para mais informações</p>
+
+        <div class="social" id="falecomigo">
+            <a href="https://www.linkedin.com/in/ana-paula-da-silva-pereira-5a9a7920a/" target="_blank">
+                <img src="./img/linkedin.png">
+            </a>
+            <a href="mailto:anapauladsp.1026@hotmail.com" target="_blank">
+                <img src="./img/contato.png">
+            </a>
+        </div>
+            
+    </footer>
     
 </body>
 </html>
